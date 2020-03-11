@@ -13,6 +13,11 @@
 	}
 	echo Division(4,2);
 
+
+function fucCosine($x){
+   $res = cos($x);
+   return $res;
+
 function pow($base,$exp) {
     $result=1;
     if($exp==0){
@@ -25,6 +30,7 @@ function pow($base,$exp) {
 		}
     }
 	return $result;
+
 }
 
 function SRoot(num){
