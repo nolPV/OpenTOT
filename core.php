@@ -1,15 +1,21 @@
 <?php
 
-<h>--SquareRoot--</h>
-<input id="inpN" type="text" oninput="SRoot(this.value)" onchange="SRoot(this.value)">
-<p>resault: <span id="SRoot"></span></p>
+function pow($base,$exp) {
+    $result=1;
+    if($exp==0){
+       return $result;
+    }
+    else{
+       for($i=1;$i<=$exp;$i++)
+	    {
+		  $result = $result * $base;
+		}
+    }
+	return $result;
+}
 
-<script>
 function SRoot(num){
     document.getElementById("SRoot").innerHTML = Math.sqrt(num); 
 }
-</script>
-
 
 ?>
-
