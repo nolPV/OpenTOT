@@ -1,5 +1,6 @@
 <?php
 
+
 	function minus-feature(a,b){
         	return a-b;
    	}
@@ -15,6 +16,11 @@
 	echo Division(4,2);
 
 
+
+	function triangle_area(a,b)
+	{
+		return (1/2) * a * b;
+	}
 
 function Log10n($n) {
   return log10($n);
