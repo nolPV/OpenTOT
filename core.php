@@ -1,12 +1,18 @@
 <?php
 
+
+function Log10n($n) {
+  return log10($n);
+}
+
+function minus-feature(a,b){
+  return a-b;
+}
+
 function addition($a,$b){
 	    $result = $a+$b;
     return $result;
-
-	function minus-feature(a,b){
-        	return a-b;
-   	}
+}
 
 
 function fucCosine($x){
