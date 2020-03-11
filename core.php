@@ -21,4 +21,9 @@ function SRoot(num){
     document.getElementById("SRoot").innerHTML = Math.sqrt(num); 
 }
 
+	function percent($a,$b){
+		return ($a/100)*$b
+	}
+?>
+
 ?>
