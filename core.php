@@ -1,4 +1,9 @@
 <?php
+
+function addition($a,$b){
+	    $result = $a+$b;
+    return $result;
+
 	function minus-feature(a,b){
         	return a-b;
    	}
