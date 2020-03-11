@@ -1,5 +1,22 @@
 <?php
 
+
+	function minus-feature(a,b){
+        	return a-b;
+   	}
+	function Division($a, $b){
+            
+            if($a ==  0 or $b ==  0){
+                return "No!!! Don't Input Number 0";
+            }
+            else{
+                return ($b/ $a);
+            }
+	}
+	echo Division(4,2);
+
+
+
 	function triangle_area(a,b)
 	{
 		return (1/2) * a * b;
@@ -49,6 +66,7 @@ function fucCosine($x){
 	function percent($a,$b){
 		return ($a/100)*$b
 	}
+
 ?>
 
 
