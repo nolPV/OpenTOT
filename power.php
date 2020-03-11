@@ -1,10 +1,4 @@
 <?php
-
-	function triangle_area(a,b)
-	{
-		return (1/2) * a * b;
-	}
-
 function pow($base,$exp) {
     $result=1;
     if($exp==0){
@@ -17,9 +11,5 @@ function pow($base,$exp) {
 		}
     }
 	return $result;
-}
-
-function SRoot(num){
-    document.getElementById("SRoot").innerHTML = Math.sqrt(num); 
 }
 ?>
