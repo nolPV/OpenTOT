@@ -1,5 +1,9 @@
 <?php
 
+	function triangle_area(a,b)
+	{
+		return (1/2) * a * b;
+	}
 
 function Log10n($n) {
   return log10($n);
