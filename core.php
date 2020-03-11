@@ -1,4 +1,12 @@
 <?php
+	function minus-feature(a,b){
+        	return a-b;
+   	}
+
+
+function fucCosine($x){
+   $res = cos($x);
+   return $res;
 
 
         function multiply(a, b) {
@@ -18,8 +26,14 @@
 	            return $result;
     }
 
+
         function SRoot(num){
     document.getElementById("SRoot").innerHTML = Math.sqrt(num); 
     }
 
+	function percent($a,$b){
+		return ($a/100)*$b
+	}
 ?>
+
+
