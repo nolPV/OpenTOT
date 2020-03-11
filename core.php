@@ -1,4 +1,7 @@
 <?php
+	function minus-feature(a,b){
+        	return a-b;
+   	}
 
 function pow($base,$exp) {
     $result=1;
